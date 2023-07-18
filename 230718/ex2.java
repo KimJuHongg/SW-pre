@@ -17,7 +17,7 @@ public class ex2 {
 		int vowels_num = 0;
 		
 		for(int i = 0; i < word.length(); i++) {
-			if(word.charAt(i) == 'a' || word.charAt(i) == 'u' || word.charAt(i) == 'i' || word.charAt(i) == 'e' || word.charAt(i) == 'o') {
+			if(word.charAt(i) == 'a' || word.charAt(i) == 'u' || word.charAt(i) == 'i' || word.charAt(i) == 'e' || word.charAt(i) == 'o' ||word.charAt(i) == 'A' || word.charAt(i) == 'U' || word.charAt(i) == 'I' || word.charAt(i) == 'E' || word.charAt(i) == 'O') {
 				
 				vowels_num += 1;
 			}
