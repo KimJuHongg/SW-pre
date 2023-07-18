@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class test2 {
 	public static void main(String[] args) {
 	
-		Scanner scanner = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		
 		System.out.print("첫번째 정수 입력 : ");
-		int a = scanner.nextInt();
+		int a = scan.nextInt();
 		
 		System.out.print("두번째 정수 입력 : ");
-		int b = scanner.nextInt();
+		int b = scan.nextInt();
 		
 		int bn;
 		int sn;
@@ -25,7 +25,7 @@ public class test2 {
 			sn = a;
 		}
 		System.out.println("합 : " + (a+b) + "\n차 : " + (a - b) + "\n곱 : " + (a*b) + "\n평균 : " + ((a+b)/2) + "\n큰 수 : " + bn + "\n작은 수 : " + sn);
-		
+		scan.close();
 	}
 
 }
