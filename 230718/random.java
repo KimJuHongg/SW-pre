@@ -1,7 +1,7 @@
 //random을 이용한 로또 번호 뽑기 -> 0.0 <= number < 1.0
 //1~10난수
 //주사위
-package example;
+package day0718;
 
 import java.math.*;
 
