@@ -1,8 +1,10 @@
 //３．　사용자로부터　두 개의　정수를　받아서　합，　차，　곱，　평균，　큰 수，　작은 수를　계산하여　출력하는　프로그램을　작성하시오．　
 
+package day0717;
+
 import java.util.Scanner;
 
-public class test2 {
+public class ex3 {
 	public static void main(String[] args) {
 	
 		Scanner scan = new Scanner(System.in);
