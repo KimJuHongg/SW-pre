@@ -1,49 +1,62 @@
 package day0724;
 
-public class Member {
-	private String name;
-	private String id;
-	private String pw;
-	private int age;
-	
-	public Member(String name, String id, String pw, int age) {
-		this.name = name;
-		this.id = id;
-		this.pw = pw;
-		this.age = age;
-	}
+public class Member
+{
+   private String name;
+   private String id;
+   private String password;
+   private int age;
 
-	public String getName() {
-		return name;
-	}
+   public Member()
+   {
+   }
+   
+   public Member(String name, String id, String password, int age)
+   {
+      this.name = name;
+      this.id = id;
+      this.password = password;
+      this.age = age;
+   }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+   public String getName()
+   {
+      return name;
+   }
 
-	public String getId() {
-		return id;
-	}
+   public void setName(String name)
+   {
+      this.name = name;
+   }
 
-	public void setId(String id) {
-		this.id = id;
-	}
+   public String getId()
+   {
+      return id;
+   }
 
-	public String getPw() {
-		return pw;
-	}
+   public void setId(String id)
+   {
+      this.id = id;
+   }
 
-	public void setPw(String pw) {
-		this.pw = pw;
-	}
+   public String getPassword()
+   {
+      return password;
+   }
 
-	public int getAge() {
-		return age;
-	}
+   public void setPassword(String password)
+   {
+      this.password = password;
+   }
 
-	public void setAge(int age) {
-		this.age = age;
-	}
-	
-	
+   public int getAge()
+   {
+      return age;
+   }
+
+   public void setAge(int age)
+   {
+      this.age = age;
+   }
+
 }
