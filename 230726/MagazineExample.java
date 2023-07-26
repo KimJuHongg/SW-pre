@@ -11,7 +11,7 @@ public class MagazineExample {
 		String title = scan.nextLine();
 		
 		System.out.println("페이지수는? ");
-		int pages = scan.nextInt();
+		 int pages = Integer.parseInt(scan.nextLine());
 		
 		System.out.print("저자는? ");
 		String writer = scan.nextLine();
