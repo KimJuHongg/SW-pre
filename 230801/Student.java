@@ -1,3 +1,9 @@
+//학생(Student)의  이름(name)과 전화번호(tel)를  입력받아 TreeMap을 이용하여 전화번호 리스트를 구현하는 프로그램을 작성하시오.
+
+//** 전화번호 관리 프로그램 **
+
+//1. 추가    2.조회    3.삭제    4.전체 출력   5.종료
+
 package telephone;
 
 public class Student {
