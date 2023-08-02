@@ -1,3 +1,8 @@
+//TreeSet 을 이용해 회원관리를 하는 프로그램 작성
+//Person : name, age
+//이름,나이가 같으면 같은 회원으로 간주
+//회원 탈퇴시에는 이름,나이를 입력받아 해당 회원 존재 시 삭제
+
 package 230801;
 
 import java.util.Scanner;
