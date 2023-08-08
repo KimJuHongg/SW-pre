@@ -1,0 +1,13 @@
+import turtle as t
+t.Turtle()
+t.shape('turtle')
+t.forward(200)
+t.right(90)
+t.forward(200)
+t.right(90)
+t.forward(200)
+t.left(90)
+t.right(180)
+t.forward(200)
+t.right(90)
+t.forward(200)
